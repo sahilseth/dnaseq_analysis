@@ -21,3 +21,17 @@ Functions in vcfR provide the ability to subset VCF data as well as to extract a
 
 Genomic regions processing using open-source command line tools such as 'BEDTools', 'BEDOPS' and 'Tabix'. These tools offer scalable and efficient utilities to perform genome arithmetic e.g indexing, formatting and merging. bedr API enhances access to these tools as well as offers additional utilities for genomic regions processing.
 
+### [gwasvcf](https://github.com/MRCIEU/gwasvcf)
+
+a wrapper around the bioconductor/VariantAnnotation package, providing functions tailored to GWAS VCF for reading, querying, creating and writing GWAS VCF format files
+some LD related functions such as using a reference panel to extract proxies, create LD matrices and perform LD clumping
+functions for harmonising a dataset against the reference genome and creating GWAS VCF files.
+
+### [varikondo](https://annaquaglieri16.github.io/varikondo/index.html)
+
+developed by the need to standardise and combine variant calling outputs from several callers as well as to allow an easy way to join filtering variants called from multiple samples within a patient.
+
+Variants from different callers can be imported in R and parsed into a data frame with standardised fields. See how fields are standardaised to know more about which fields from each callers are parsed. The import functions are:
+
+
+
